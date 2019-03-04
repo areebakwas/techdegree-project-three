@@ -1,0 +1,210 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+background-color: #2d3945;
+}
+
+header h1 {
+text-align: center;
+color: #fff;
+text-transform: uppercase;
+font-size: 1.5em;
+padding: 30px 0;
+margin: 0;
+}
+
+.banner {
+text-align: center;
+padding: 30px 0;
+border-bottom: 4px solid #000;
+}
+
+.banner h2, legend {
+font-size: 1.25em;
+}
+
+.banner p {
+padding: 0 1.5em;
+color: #aaafb4;
+line-height: 1.5em;
+font-weight: 300;
+}
+
+.linea {
+border-top: 2px solid #000;
+width: 100%;
+margin-top: 2px;
+}
+
+.contact {
+  margin: 30px 0;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+form {
+padding-left: 0;
+}
+
+fieldset {
+border: none;
+margin: 0;
+padding: 0;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+#state, textarea {
+margin-top: 15px;
+margin-bottom: 30px;
+height: 60px;
+border-radius: 5px;
+width: 100%;
+border: none;
+background-color: #eff0f1;
+padding-right: 20px;
+transition: background-color 1.5s;
+}
+
+#contact, #newsletter {
+font-weight: 700;
+margin-bottom: 30px;
+}
+
+label, p  {
+color: #aaafb4;
+font-weight: 300;
+}
+
+
+input[placeholder] {
+text-align: right;
+font-size: .75em;
+font-style: italic;
+}
+
+::placeholder {
+color: #aaafb4;
+font-weight: 300;
+}
+
+#zipcode {
+width: 50%;
+}
+
+.newsletter {
+margin-top: 35px;
+}
+
+.newsletter legend {
+margin-bottom: 25px;
+}
+
+.newsletter label {
+line-height: 1.5em;
+font-weight: 300;
+}
+
+#HTML, #CSS, #Javascript, #Plain_text, #HTML_format {
+  margin-right: 12px;
+}
+
+.newsletter input {
+margin-top: 20px;
+}
+
+#Javascript {
+  margin-bottom: 30px;
+}
+
+.newsletter p {
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+button {
+  background-color: #4ebbb5;
+  height: 60px;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+select {
+  color: #aaafb4;;
+}
+
+footer {
+  height: 200px;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 15px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: .8em;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#Plain_text {
+  margin-bottom: 15px;
+}
+
+input:focus,
+textarea:focus {
+  border: 3px solid #4ebbb5;
+  outline: none;
+  background-color: lightgrey;
+}
+
+footer {
+  background-color: #2d3945;
+}
+
+@media (min-width:768px) {
+
+.container {
+  width: 60%;
+}
+
+
+.contact label {
+  display: inline-block;
+  width: 25%;
+  margin-right: -5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+#state, textarea {
+  display: inline-block;
+  width: 75%;
+}
+textarea {
+  width: 100%;
+}
+
+}
