@@ -93,19 +93,19 @@ font-weight: 300;
 }
 
 
-input[placeholder] {
-text-align: right;
-font-size: .75em;
-font-style: italic;
-}
-
 ::placeholder {
 color: #aaafb4;
 font-weight: 300;
+text-align: right;
+font-size: .85em;
+font-style: italic;
+
 }
 
 #zipcode {
 width: 50%;
+display: flex;
+
 }
 
 .newsletter {
@@ -178,7 +178,7 @@ footer p {
 
 input:focus,
 textarea:focus {
-  border: 3px solid #4ebbb5;
+  border: 3px solid #4ebb74;
   outline: none;
   background-color: lightgrey;
 }
@@ -203,7 +203,7 @@ footer {
 input[type="text"],
 input[type="tel"],
 input[type="email"],
-#state, textarea {
+#state, #zipcode, textarea {
   display: inline-block;
   width: 75%;
 }
