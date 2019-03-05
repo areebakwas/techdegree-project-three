@@ -203,10 +203,18 @@ footer {
 input[type="text"],
 input[type="tel"],
 input[type="email"],
-#state, #zipcode, textarea {
+#state, textarea {
   display: inline-block;
   width: 75%;
 }
+
+#zipcode {
+  display: inline-block;
+  width: 30%;
+
+}
+
+
 textarea {
   width: 100%;
 }
